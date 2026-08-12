@@ -1,0 +1,14 @@
+{
+  "city": "TKY",
+  "train_rows": 288987,
+  "val_rows": 35840,
+  "test_rows": 35993,
+  "train_users": 2262,
+  "train_pois": 7793,
+  "test_cases": 4807,
+  "same_poi_test_rate": 0.07052215519034741,
+  "collision_groups": 1043,
+  "pois_in_collision_groups": 2814,
+  "collision_category_purity": 0.04797441364605544,
+  "collision_region_purity": 0.01990049751243781
+}

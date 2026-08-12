@@ -1,0 +1,40 @@
+{
+  "reconstruction_mse": 0.006086871959269047,
+  "unique_sids": 6022,
+  "collision_rate": 0.22725522905171303,
+  "level_1_usage": 52,
+  "level_1_perplexity": 20.256430020414548,
+  "level_2_usage": 64,
+  "level_2_perplexity": 55.715873946839395,
+  "level_3_usage": 64,
+  "level_3_perplexity": 58.893742909004615,
+  "prefix_1_category_coherence": 0.0786741214057508,
+  "prefix_1_region_coherence": 0.04033546325878594,
+  "prefix_2_category_coherence": 0.06204951425885302,
+  "prefix_2_region_coherence": 0.029927922281416483,
+  "prefix_3_category_coherence": 0.08243929983060418,
+  "prefix_3_region_coherence": 0.04121964991530209,
+  "n_pois": 7793,
+  "n_categories": 289,
+  "n_regions": 100,
+  "n_hours": 24,
+  "n_users": 2262,
+  "input_dim": 2675,
+  "block_order": [
+    "category",
+    "region",
+    "hour",
+    "user_multi_hot"
+  ],
+  "fitted_on": "TKY_train only",
+  "epochs_run": 60,
+  "selected_sid_epoch": 1,
+  "seed": 20260807,
+  "official_module": "GNPR-SID V2 CRQ-VAE",
+  "codebook_sizes": [
+    64,
+    64,
+    64
+  ],
+  "ema": true
+}

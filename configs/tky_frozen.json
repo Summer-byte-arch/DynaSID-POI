@@ -1,0 +1,19 @@
+{
+  "city_prefix": "TKY",
+  "seed": 20260807,
+  "confirmation_protocol": "冻结 NYC 权重，不使用 TKY 测试集调参",
+  "sid": {
+    "codebook_sizes": [64, 64, 64],
+    "embedding_dim": 64,
+    "epochs": 100,
+    "batch_size": 256,
+    "patience": 60
+  },
+  "evaluation": {
+    "top_k": 10,
+    "infeasible_threshold_km": 10.0,
+    "bootstrap_samples": 5000
+  },
+  "spatial_radii_km": [2.0, 5.0, 10.0],
+  "frozen_weights": [0, 0, 2, 0.25, 0, 8, 8, 4, 12, 12, 12, 12, 12, 12, 12, 0, -12]
+}

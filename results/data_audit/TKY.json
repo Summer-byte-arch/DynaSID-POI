@@ -1,0 +1,45 @@
+{
+  "city": "TKY",
+  "splits": [
+    {
+      "split": "train",
+      "rows": 288987,
+      "users": 2262,
+      "pois": 7793,
+      "trajectories": 35166,
+      "start_time": "2012-04-04 04:12:07+00:00",
+      "end_time": "2012-12-08 16:18:41+00:00",
+      "missing_required_values": 0
+    },
+    {
+      "split": "val",
+      "rows": 35840,
+      "users": 1469,
+      "pois": 5036,
+      "trajectories": 4847,
+      "start_time": "2012-12-08 16:18:46+00:00",
+      "end_time": "2013-01-11 18:08:57+00:00",
+      "missing_required_values": 0
+    },
+    {
+      "split": "test",
+      "rows": 35993,
+      "users": 1365,
+      "pois": 4827,
+      "trajectories": 4857,
+      "start_time": "2013-01-11 18:09:12+00:00",
+      "end_time": "2013-02-16 11:28:03+00:00",
+      "missing_required_values": 0
+    }
+  ],
+  "train_val_trajectory_overlap": 147,
+  "train_val_duplicate_events": 0,
+  "train_test_trajectory_overlap": 0,
+  "train_test_duplicate_events": 0,
+  "val_test_trajectory_overlap": 115,
+  "val_test_duplicate_events": 0,
+  "chronological_boundaries": {
+    "train_end_le_val_start": true,
+    "val_end_le_test_start": true
+  }
+}

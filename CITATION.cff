@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: DynaSID-POI
+message: Please cite the GNPR-SID backbone paper and this repository when using the code.
+type: software
+authors:
+  - family-names: Summer-byte-arch
+year: 2026
+repository-code: https://github.com/Summer-byte-arch/DynaSID-POI
+references:
+  - type: conference-paper
+    title: Generative Next POI Recommendation with Semantic ID
+    authors:
+      - family-names: Wang
+        given-names: Dongsheng
+    conference:
+      name: KDD
+    year: 2025

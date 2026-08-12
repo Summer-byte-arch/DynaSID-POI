@@ -1,0 +1,15 @@
+{
+  "n_pois": 4980,
+  "n_categories": 318,
+  "n_regions": 100,
+  "n_hours": 24,
+  "n_users": 1047,
+  "input_dim": 1489,
+  "block_order": [
+    "category",
+    "region",
+    "hour",
+    "user_multi_hot"
+  ],
+  "fitted_on": "NYC_train only"
+}

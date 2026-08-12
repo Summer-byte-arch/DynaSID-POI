@@ -1,0 +1,14 @@
+{
+  "city": "NYC",
+  "train_rows": 83228,
+  "val_rows": 10339,
+  "test_rows": 10374,
+  "train_users": 1047,
+  "train_pois": 4980,
+  "test_cases": 1442,
+  "same_poi_test_rate": 0.08321775312066575,
+  "collision_groups": 351,
+  "pois_in_collision_groups": 818,
+  "collision_category_purity": 0.14547677261613692,
+  "collision_region_purity": 0.04156479217603912
+}

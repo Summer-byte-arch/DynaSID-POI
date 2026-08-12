@@ -1,0 +1,40 @@
+{
+  "reconstruction_mse": 0.0052010854706168175,
+  "unique_sids": 4513,
+  "collision_rate": 0.09377510040160641,
+  "level_1_usage": 64,
+  "level_1_perplexity": 62.36011178832294,
+  "level_2_usage": 64,
+  "level_2_perplexity": 62.83345910524289,
+  "level_3_usage": 64,
+  "level_3_perplexity": 63.06027867664565,
+  "prefix_1_category_coherence": 0.07442434210526316,
+  "prefix_1_region_coherence": 0.042557565789473686,
+  "prefix_2_category_coherence": 0.11912568306010929,
+  "prefix_2_region_coherence": 0.04116575591985428,
+  "prefix_3_category_coherence": 0.17130620985010706,
+  "prefix_3_region_coherence": 0.057815845824411134,
+  "n_pois": 4980,
+  "n_categories": 318,
+  "n_regions": 100,
+  "n_hours": 24,
+  "n_users": 1047,
+  "input_dim": 1489,
+  "block_order": [
+    "category",
+    "region",
+    "hour",
+    "user_multi_hot"
+  ],
+  "fitted_on": "NYC_train only",
+  "epochs_run": 100,
+  "selected_sid_epoch": 40,
+  "seed": 20260807,
+  "official_module": "GNPR-SID V2 CRQ-VAE",
+  "codebook_sizes": [
+    64,
+    64,
+    64
+  ],
+  "ema": true
+}

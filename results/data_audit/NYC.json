@@ -1,0 +1,45 @@
+{
+  "city": "NYC",
+  "splits": [
+    {
+      "split": "train",
+      "rows": 83228,
+      "users": 1047,
+      "pois": 4980,
+      "trajectories": 11022,
+      "start_time": "2012-04-03 14:00:09+00:00",
+      "end_time": "2012-11-09 16:38:31+00:00",
+      "missing_required_values": 0
+    },
+    {
+      "split": "val",
+      "rows": 10339,
+      "users": 513,
+      "pois": 2558,
+      "trajectories": 1559,
+      "start_time": "2012-11-09 16:54:47+00:00",
+      "end_time": "2012-12-21 08:29:19+00:00",
+      "missing_required_values": 0
+    },
+    {
+      "split": "test",
+      "rows": 10374,
+      "users": 461,
+      "pois": 2403,
+      "trajectories": 1566,
+      "start_time": "2012-12-21 08:29:31+00:00",
+      "end_time": "2013-02-14 07:32:00+00:00",
+      "missing_required_values": 0
+    }
+  ],
+  "train_val_trajectory_overlap": 7,
+  "train_val_duplicate_events": 0,
+  "train_test_trajectory_overlap": 0,
+  "train_test_duplicate_events": 0,
+  "val_test_trajectory_overlap": 10,
+  "val_test_duplicate_events": 0,
+  "chronological_boundaries": {
+    "train_end_le_val_start": true,
+    "val_end_le_test_start": true
+  }
+}

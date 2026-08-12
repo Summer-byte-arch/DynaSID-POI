@@ -1,0 +1,15 @@
+{
+  "n_pois": 7793,
+  "n_categories": 289,
+  "n_regions": 100,
+  "n_hours": 24,
+  "n_users": 2262,
+  "input_dim": 2675,
+  "block_order": [
+    "category",
+    "region",
+    "hour",
+    "user_multi_hot"
+  ],
+  "fitted_on": "TKY_train only"
+}
