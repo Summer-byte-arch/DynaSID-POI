@@ -51,7 +51,7 @@ results/
   downstream/                   NYC 严格协议原始结果
   cross_city/NYC/               NYC 扩展审计与消融实验
   cross_city/TKY/               TKY 冻结参数确认实验
-figures/                        可直接用于报告的可视化图
+figures/                        用于报告的可视化图
 configs/                        NYC 与冻结参数 TKY 配置
 scripts/                        数据校验、CPU 流程及图表生成脚本
 tests/                          配置、距离、指标、Bootstrap 与泄漏测试
